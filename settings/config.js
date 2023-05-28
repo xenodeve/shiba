@@ -2,7 +2,7 @@ require("dotenv").config();
 const { resolve } = require("path");
 
 module.exports = {
-    TOKEN: process.env.TOKEN || "OTAyMTM2NTc4NzM3MDc4Mjkz.GB9tlO.zbr24thdWMV7dFe2MP6h_fDIw8-b_7vqHlB-0I",  // bot token
+    TOKEN: process.env.TOKEN || "",  // bot token
     EMBED_COLOR: process.env.EMBED_COLOR || "#FDD175", //<= default is "#000001"
     FOOTER: process.env.FOOTER || "https://i.imgur.com/qHp10Ft.png",
 
